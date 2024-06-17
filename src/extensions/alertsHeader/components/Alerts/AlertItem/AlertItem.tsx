@@ -83,7 +83,7 @@ export class AlertItem extends React.Component<
                     : styles.alertDescription
                 }
               >
-                {this.props.item.title} : {this.props.item.description}
+                <strong>{this.props.item.title}:</strong> {this.props.item.description}
                 {this.state.expanded && this.props.item.link ? (
                   <span className={css(styles.alertLink, styles.hideInDesktop)}>
                     <a
@@ -96,7 +96,7 @@ export class AlertItem extends React.Component<
                 ) : null}
               </span>
             </Stack.Item>
-            <Stack.Item
+            {/* <Stack.Item
               align="center"
               grow={1}
               styles={stackItemStyles}
@@ -115,7 +115,7 @@ export class AlertItem extends React.Component<
                   )}
                 </IconButton>
               </span>
-            </Stack.Item>
+            </Stack.Item> */}
             <Stack.Item
               align="center"
               grow={1}
@@ -123,21 +123,13 @@ export class AlertItem extends React.Component<
               className={css(styles.stackIcon, styles.hideInDesktop)}
             >
               <span className={styles.alertClose}>
-                {this.state.expanded ? (
+                {(
                   <IconButton
                     onClick={() => {
                       this.props.remove(this.props.item.Id);
                     }}
                   >
                     <Icon iconName="ChromeClose"></Icon>
-                  </IconButton>
-                ) : (
-                  <IconButton
-                    onClick={() =>
-                      this.setState({ expanded: !this.state.expanded })
-                    }
-                  >
-                    <Icon iconName="ChevronDown"></Icon>
                   </IconButton>
                 )}
               </span>

@@ -6,24 +6,24 @@ $breakpoint-tablet: 991px;
 
   .actionable{
     background: #f1c40f;
-    color: #323130;
+    color: #000000;
     .alertIcon {
-      color: #323130;
+      color: #000000;
     }
     .alertClose {
       i {
-        color: #323130 !important;
+        color: #000000 !important;
       }
     }
     .alertLink{
       a {
-        color: #323130;
+        color: #000000;
       }
     }
   }
   
   .info {
-    background: #2980b9;
+    background: #065985;
     color: #ffffff;
     .alertIcon {
       color: #ffffff;
@@ -36,10 +36,10 @@ $breakpoint-tablet: 991px;
   }
 
   .warning {
-    background: #c0392b;
+    background: #991B1A;
     color: #fff;
     .alertIcon {
-      color: #fedb09;
+      color: #ffffff;
     }
     .alertClose {
       i {
@@ -79,12 +79,9 @@ $breakpoint-tablet: 991px;
   }
 
   .alertDescription {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+	height: auto;
     line-height: 18px;
     letter-spacing: -0.04px;
-    padding: 0px;
   }
 
   .alertDescriptionExp {

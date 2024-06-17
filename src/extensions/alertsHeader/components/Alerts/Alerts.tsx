@@ -36,7 +36,7 @@ export class Alerts extends React.Component<IAlertProps, IAlertState> {
         <div className={styles.container}>
           {this.state.alerts.map((val, index) => {
             return (
-              <AlertItem item={val} remove={this._removeAlert}></AlertItem>
+              <AlertItem item={val} remove={this._removeAlert} key={index}></AlertItem>
             );
           })}
         </div>
