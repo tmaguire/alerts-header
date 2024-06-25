@@ -1,5 +1,5 @@
-define([], function() {
-  return {
-    "Title": "AlertsHeaderApplicationCustomizer"
-  }
+define([], function () {
+	return {
+		"Title": "AlertsHeaderApplicationCustomizer"
+	};
 });

@@ -1,2 +1,2 @@
-export * from './IAlerts.types';
-export * from './Alerts';
+export * from "./IAlerts.types";
+export * from "./Alerts";
