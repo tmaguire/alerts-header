@@ -36,7 +36,7 @@
     "@microsoft/sp-tslint-rules": "1.21.1",
     "@types/chai": "3.4.34",
     "@types/es6-promise": "0.0.33",
-    "@types/mocha": "2.2.38",
+    "@types/mocha": "10.0.10",
     "@types/react": "17.0.87",
     "@types/webpack-env": "1.18.8",
     "ajv": "~8.17.1",
