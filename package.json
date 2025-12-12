@@ -20,7 +20,7 @@
     "@microsoft/decorators": "1.21.1",
     "@microsoft/sp-application-base": "1.21.1",
     "@microsoft/sp-core-library": "1.21.1",
-    "@microsoft/sp-dialog": "1.21.1",
+    "@microsoft/sp-dialog": "1.22.0",
     "@pnp/common": "^2.15.0",
     "@pnp/graph": "^4.17.0",
     "@pnp/logging": "^4.17.0",
