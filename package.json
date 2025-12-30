@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-3.9": "^0.6.2",
-    "@microsoft/sp-build-web": "1.21.1",
+    "@microsoft/sp-build-web": "1.22.1",
     "@microsoft/sp-module-interfaces": "1.22.0",
     "@microsoft/sp-tslint-rules": "1.21.1",
     "@types/chai": "5.2.3",
@@ -42,6 +42,6 @@
     "ajv": "~8.17.1",
     "gulp": "4.0.2",
     "typescript": "^5.9.3",
-    "webpack": "5.103.0"
+    "webpack": "5.104.0"
   }
 }
