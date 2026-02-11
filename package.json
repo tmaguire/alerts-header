@@ -16,7 +16,7 @@
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@fortawesome/free-regular-svg-icons": "^7.1.0",
     "@fortawesome/free-solid-svg-icons": "^7.1.0",
-    "@fortawesome/react-fontawesome": "^3.1.1",
+    "@fortawesome/react-fontawesome": "^3.2.0",
     "@microsoft/decorators": "1.22.1",
     "@microsoft/sp-application-base": "1.22.1",
     "@microsoft/sp-core-library": "1.22.1",
