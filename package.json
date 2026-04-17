@@ -41,7 +41,7 @@
     "@types/webpack-env": "1.18.8",
     "ajv": "~8.18.0",
     "gulp": "4.0.2",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.3",
     "webpack": "5.106.1"
   }
 }
