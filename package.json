@@ -39,7 +39,7 @@
     "@types/mocha": "10.0.10",
     "@types/react": "17.0.87",
     "@types/webpack-env": "1.18.8",
-    "ajv": "~8.18.0",
+    "ajv": "~8.20.0",
     "gulp": "4.0.2",
     "typescript": "^5.9.3",
     "webpack": "5.106.2"
