@@ -19,7 +19,7 @@
     "@fortawesome/react-fontawesome": "^3.3.1",
     "@microsoft/decorators": "1.23.1",
     "@microsoft/sp-application-base": "1.23.2",
-    "@microsoft/sp-core-library": "1.23.1",
+    "@microsoft/sp-core-library": "1.23.2",
     "@microsoft/sp-dialog": "1.23.1",
     "@pnp/common": "^2.15.0",
     "@pnp/graph": "^4.20.0",
